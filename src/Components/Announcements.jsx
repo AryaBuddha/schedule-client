@@ -8,9 +8,9 @@ const Announcements = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
     
     useEffect(() => {
-        if(!localStorage.getItem('announcement-5')){
+        if(!localStorage.getItem('announcement-6')){
             onOpen()
-            localStorage.setItem('announcement-5', 'seen')
+            localStorage.setItem('announcement-6', 'seen')
         }
     }, [])
 
@@ -19,16 +19,10 @@ const Announcements = () => {
         <Modal isOpen={isOpen} onClose={onClose}>
                 <ModalOverlay />
                 <ModalContent>
-                <ModalHeader>HSE News</ModalHeader>
+                <ModalHeader>HSE Calendar</ModalHeader>
                 <ModalCloseButton />
                 <ModalBody>
-                    <Text>Good morning, Royals! </Text>
-                    <br></br>
-                    <Text>We hope you had an awesome weekend. It's the HSETV crew here to once again remind you (and your teachers) that today there is another newscast!</Text>
-                    <br></br>
-                    <Text>Teachers, make sure to show the newscast right after the pledge during pathways! Use this link to access it:</Text>
-                    <br></br>
-                    <Text style={{color: "#1890ff"}}><a href="https://www.hsenews.com/category/hsetv/newscasts/">Newscast Link</a> </Text>
+                    <Text>We're Back. </Text>
                 </ModalBody>
 
                 <ModalFooter>
