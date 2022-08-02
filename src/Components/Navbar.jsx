@@ -75,7 +75,7 @@ const Navbar = ({ fullView, setFullView }) => {
             <Image h="40px" src={logo} />
           </Box>
           <Text fontWeight="550" fontSize="2xl">
-            HSE Schedule
+            HSE Underground Schedule
           </Text>
         </HStack>
 
@@ -190,32 +190,7 @@ const Navbar = ({ fullView, setFullView }) => {
             <div
               style={{ width: "100%", textAlign: "center", marginTop: "30px" }}
             >
-              <Text style={{ fontSize: "12px" }}>Made by HSE Apps</Text>
-
-              <a target="_blank" href="https://hseapps.org/about">
-                <TeamOutlined
-                  style={{ marginRight: "8px", color: "#1890ff" }}
-                ></TeamOutlined>
-              </a>
-              <a target="_blank" href="https://www.instagram.com/hseapps/">
-                <InstagramOutlined
-                  style={{ marginRight: "8px", color: "#1890ff" }}
-                ></InstagramOutlined>
-              </a>
-              <a target="_blank" href="https://github.com/HSE-Apps">
-                <GithubOutlined
-                  style={{ marginRight: "8px", color: "#1890ff" }}
-                ></GithubOutlined>
-              </a>
-              <a target="_blank" href="https://forms.gle/89AcvDmLDaX8qgu86">
-                <ChatIcon
-                  style={{
-                    marginRight: "8px",
-                    marginTop: "6px",
-                    color: "#1890ff",
-                  }}
-                ></ChatIcon>
-              </a>
+              <Text style={{ fontSize: "12px" }}>Made by a bro</Text>
             </div>
           </ModalBody>
 
