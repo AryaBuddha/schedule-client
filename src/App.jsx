@@ -33,6 +33,7 @@ const App = () => {
       "scheduleSettings",
       JSON.stringify({ royalDay: "A", grayDay: "A", display: "Timer" })
     );
+    window.location.reload();
   }
   console.log(localStorage.getItem("scheduleSettings")["blueDay"]);
 
